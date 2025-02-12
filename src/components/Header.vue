@@ -1,10 +1,10 @@
 <template>
   <header
-    class="z-10 w-full h-72px fixed flex items-center justify-between  pr-2 px-8 sm:px-16 xl:px-16 2xl:px-32 select-none">
+    class="z-10 w-full h-96px fixed flex items-center justify-between px-8 sm:px-12 xl:px-16 2xl:px-32 select-none">
     <div class="flex flex-1 justify-center select-none">
       <span class="mr-auto select-none">
         <router-link :to="{ name: 'home' }">
-          <Rev1_logo @click="" class="cursor-pointer select-none" />
+          <Pds_logo @click="" class="cursor-pointer h-16 select-none" />
         </router-link>
       </span>
     </div>
@@ -19,8 +19,10 @@
       <span class="">
         <nav class="flex text-white font-semibold">
           <router-link :to="{ name: 'home' }">{{ $t('home') }}</router-link>
-          <router-link :to="{ name: 'gallery' }">{{ $t('gallery') }}</router-link>
           <router-link :to="{ name: 'services' }">{{ $t('services') }}</router-link>
+          <router-link :to="{ name: 'projects' }">{{ $t('projects') }}</router-link>
+          <router-link :to="{ name: 'training' }">{{ $t('training') }}</router-link>
+          <router-link :to="{ name: 'contact' }">{{ $t('contact') }}</router-link>
         </nav>
       </span>
     </div>
@@ -34,10 +36,10 @@
           <Spacer />
           <LanguageDropdown />
           <Spacer />
-          <a class='button' target="_blank" href="https://www.facebook.com/p/Rev1-Detailing-Wrapping-100083076285508/">
-            <FacebookIcon />
-          </a>
-          <a class='button' target="_blank" href="https://www.instagram.com/rev1_detailing_wrapping/">
+          <!-- <a class='button' target="_blank" href="https://www.facebook.com/p/Rev1-Detailing-Wrapping-100083076285508/">
+          <FacebookIcon />
+          </a> -->
+          <a class='button' target="_blank" href="https://www.instagram.com/prime_detailing_studio_pds">
             <InstagramIcon />
           </a>
         </menu>
@@ -47,11 +49,11 @@
 </template>
 
 <script setup lang="ts">
-import Rev1_logo from '../assets/rev1_logo.vue';
+import Pds_logo from '../assets/pds_logo.vue';
 import Spacer from '../components/Spacer.vue';
 import PlaneIcon from "../assets/icons/PlaneIcon.vue";
 import InstagramIcon from "../assets/icons/InstagramIcon.vue";
-import FacebookIcon from "../assets/icons/FacebookIcon.vue";
+// import FacebookIcon from "../assets/icons/FacebookIcon.vue";
 import LanguageDropdown from "../components/LanguageDropdown.vue";
 import BurgerIcon from '../assets/icons/BurgerIcon.vue';
 import { state } from "../state";
@@ -72,11 +74,11 @@ nav a {
   @apply p-4 duration-100;
 
   &:hover {
-    @apply text-[#E52F4B];
+    @apply text-[#DAC0A0];
   }
 
   &.router-link-active {
-    @apply text-[#E52F4B];
+    @apply text-[#DAC0A0];
   }
 }
 
@@ -87,19 +89,19 @@ menu {
     @apply duration-100;
 
     &:hover {
-      @apply text-[#E52F4B];
+      @apply text-[#DAC0A0];
     }
   }
 
   button:hover {
-    @apply text-[#E52F4B];
+    @apply text-[#DAC0A0];
   }
 
   .navigations {
     @apply bg-white items-center text-black py-2 px-8 rounded-full font-semibold duration-100 flex gap-2;
 
     &:hover {
-      @apply bg-[#E52F4B] text-white;
+      @apply bg-[#DAC0A0] text-white;
     }
   }
 

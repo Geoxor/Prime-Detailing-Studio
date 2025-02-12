@@ -6,23 +6,40 @@ export const routes: RouteRecordRaw[] = [
     name: "home",
     component: () => import("./views/Home.vue"),
     meta: {
-      title: "Rev1 | Home",
+      title: `Prime Detailing Studio | Home`,
     },
   },
-  {
-    path: "/gallery",
-    name: "gallery",
-    component: () => import("./views/Gallery.vue"),
-    meta: {
-      title: "Rev1 | Gallery",
-    },
-  },
+
   {
     path: "/services",
     name: "services",
     component: () => import("./views/Services.vue"),
     meta: {
-      title: "Rev1 | Services",
+      title: `Prime Detailing Studio | Services`,
+    },
+  },
+  {
+    path: "/projects",
+    name: "projects",
+    component: () => import("./views/Projects.vue"),
+    meta: {
+      title: `Prime Detailing Studio | Projects`,
+    },
+  },
+  {
+    path: "/contact",
+    name: "contact",
+    component: () => import("./views/Contact.vue"),
+    meta: {
+      title: `Prime Detailing Studio | Contact`,
+    },
+  },
+  {
+    path: "/training",
+    name: "training",
+    component: () => import("./views/Training.vue"),
+    meta: {
+      title: `Prime Detailing Studio | Training`,
     },
   },
 ];

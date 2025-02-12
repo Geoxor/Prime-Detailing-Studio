@@ -2,7 +2,7 @@
   <transition name="slide">
     <div class="bg-black  text-white h-full w-80 p-4 fixed right-0 z-20" v-if="state.isShowingMobileNavigation.value">
       <div class="flex justify-end">
-        <span @click="closeNavigation" class="p-2 hover:text-[#E52F4B] cursor-pointer duration-100">
+        <span @click="closeNavigation" class="p-2 hover:text-[#DAC0A0] cursor-pointer duration-100">
           <CloseIcon />
         </span>
       </div>
@@ -10,7 +10,6 @@
       <div class="p-4">
         <nav class="flex flex-col gap-2 text-white font-semibold">
           <router-link @click="closeNavigation" :to="{ name: 'home' }">{{ $t('home') }}</router-link>
-          <router-link @click="closeNavigation" :to="{ name: 'gallery' }">{{ $t('gallery') }}</router-link>
           <router-link @click="closeNavigation" :to="{ name: 'services' }">{{ $t('services') }}</router-link>
         </nav>
         <div class="my-4 h-1px w-full bg-white bg-opacity-20" />
@@ -26,10 +25,10 @@
         <div class="my-4 h-1px w-full bg-white bg-opacity-20" />
 
         <div class="flex gap-2">
-          <a class='button' target="_blank" href="https://www.facebook.com/p/Rev1-Detailing-Wrapping-100083076285508/">
+          <!-- <a class='button' target="_blank" href="https://www.facebook.com/p/Rev1-Detailing-Wrapping-100083076285508/">
             <FacebookIcon />
-          </a>
-          <a class='button' target="_blank" href="https://www.instagram.com/rev1_detailing_wrapping/">
+          </a> -->
+          <a class='button' target="_blank" href="https://www.instagram.com/prime_detailing_studio_pds">
             <InstagramIcon />
           </a>
         </div>
@@ -41,7 +40,7 @@
 <script setup lang="ts">
 import CloseIcon from '../assets/icons/CloseIcon.vue';
 import InstagramIcon from "../assets/icons/InstagramIcon.vue";
-import FacebookIcon from "../assets/icons/FacebookIcon.vue";
+// import FacebookIcon from "../assets/icons/FacebookIcon.vue";
 import { state } from "../state";
 import PlaneIcon from "../assets/icons/PlaneIcon.vue";
 import LanguageDropdown from "../components/LanguageDropdown.vue";
@@ -57,7 +56,7 @@ nav {
     @apply duration-100;
 
     &:hover {
-      @apply text-[#E52F4B];
+      @apply text-[#DAC0A0];
     }
   }
 }
@@ -66,7 +65,7 @@ nav {
   @apply bg-white items-center text-black py-2 justify-center rounded-full font-semibold duration-100 flex gap-2;
 
   &:hover {
-    @apply bg-[#E52F4B] text-white;
+    @apply bg-[#DAC0A0] text-white;
   }
 }
 

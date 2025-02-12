@@ -1,11 +1,11 @@
 <template>
   <div class="home">
     <div class="h-full w-full">
-      <video disable-picture-in-picture="true" src="/rev1.webm" autoplay muted loop oncontextmenu="return false;"
+      <video disable-picture-in-picture="true" src="/bg.webm" autoplay muted loop oncontextmenu="return false;"
         class="opacity-20 select-none  object-cover h-full w-full" />
       <span class="absolute top-1/2 left-1/2 transform-gpu -translate-x-1/2 -translate-y-1/2 mix-blend-exclusion ">
         <transition name="slide">
-          <Rev1 v-if="showLogo" class="text-white w-64 xl:w-168 h-auto " />
+          <Pds v-if="showLogo" class="text-white w-64 xl:w-168 h-auto " />
         </transition>
         <ScrollAnimation class="absolute -bottom-80 left-1/2 transform-gpu -translate-x-1/2 " />
       </span>
@@ -17,7 +17,7 @@
 <script setup lang="ts">
 import Sponsors from '../components/Sponsors.vue'
 import ScrollAnimation from '../components/ScrollAnimation.vue'
-import Rev1 from '../assets/rev1_logo_colorless.vue';
+import Pds from '../assets/pds_logo_colorless.vue';
 
 import { onMounted, ref } from "vue";
 

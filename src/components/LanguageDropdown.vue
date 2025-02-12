@@ -46,7 +46,7 @@ onClickOutside(languageDropdown, () => closeLanguageDropdown());
 }
 
 button.active {
-  @apply text-[#E52F4B];
+  @apply text-[#DAC0A0];
 }
 
 .slide-enter-active,
