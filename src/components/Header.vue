@@ -19,9 +19,9 @@
       <span class="">
         <nav class="flex text-white font-semibold">
           <router-link :to="{ name: 'home' }">{{ $t('home') }}</router-link>
-          <router-link :to="{ name: 'services' }">{{ $t('services') }}</router-link>
-          <router-link :to="{ name: 'projects' }">{{ $t('projects') }}</router-link>
-          <router-link :to="{ name: 'training' }">{{ $t('training') }}</router-link>
+          <!-- <router-link :to="{ name: 'services' }">{{ $t('services') }}</router-link> -->
+          <!-- <router-link :to="{ name: 'projects' }">{{ $t('projects') }}</router-link> -->
+          <!-- <router-link :to="{ name: 'training' }">{{ $t('training') }}</router-link> -->
           <router-link :to="{ name: 'contact' }">{{ $t('contact') }}</router-link>
         </nav>
       </span>
@@ -39,7 +39,7 @@
           <!-- <a class='button' target="_blank" href="https://www.facebook.com/p/Rev1-Detailing-Wrapping-100083076285508/">
           <FacebookIcon />
           </a> -->
-          <a class='button' target="_blank" href="https://www.instagram.com/prime_detailing_studio_pds">
+          <a class='button' target="_blank" :href="`https://www.instagram.com/${$t('instagram.username')}`">
             <InstagramIcon />
           </a>
         </menu>

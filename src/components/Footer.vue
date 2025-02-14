@@ -78,8 +78,8 @@
 
     <section class="footerSection socials">
       <p class="text-white">{{ $t('follow.us') }}</p>
-
-      <a class='button' target="_blank" href="https://www.instagram.com/prime_detailing_studio_pds">
+      
+      <a class='button' target="_blank" :href="`https://www.instagram.com/${$t('instagram.username')}`">
         <InstagramIcon />
       </a>
     </section>

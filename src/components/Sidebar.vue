@@ -10,7 +10,7 @@
       <div class="p-4">
         <nav class="flex flex-col gap-2 text-white font-semibold">
           <router-link @click="closeNavigation" :to="{ name: 'home' }">{{ $t('home') }}</router-link>
-          <router-link @click="closeNavigation" :to="{ name: 'services' }">{{ $t('services') }}</router-link>
+          <!-- <router-link @click="closeNavigation" :to="{ name: 'services' }">{{ $t('services') }}</router-link> -->
         </nav>
         <div class="my-4 h-1px w-full bg-white bg-opacity-20" />
 
@@ -28,7 +28,7 @@
           <!-- <a class='button' target="_blank" href="https://www.facebook.com/p/Rev1-Detailing-Wrapping-100083076285508/">
             <FacebookIcon />
           </a> -->
-          <a class='button' target="_blank" href="https://www.instagram.com/prime_detailing_studio_pds">
+          <a class='button' target="_blank" :href="`https://www.instagram.com/${$t('instagram.username')}`">
             <InstagramIcon />
           </a>
         </div>
