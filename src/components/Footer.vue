@@ -25,7 +25,7 @@
           </p>
         </a>
 
-        <a class="duration-100 hover:text-white" target="_blank" :href="`tel:${$t('telephone')}`">
+        <a class="duration-100 hover:text-white" target="_blank" :href="`tel:${$t('telephone.number')}`">
           <p>
             <TelephoneIcon />
             {{ $t('telephone.number') }}
