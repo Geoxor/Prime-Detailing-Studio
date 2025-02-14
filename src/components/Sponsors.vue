@@ -1,22 +1,22 @@
 <template>
   <div
     class="bg-[#1A1A1A] overflow-hidden overflow-x-auto flex md:flex-row flex-col items-center text-white py-16 pr-8 px-8 sm:px-16 xl:px-16 2xl:px-32 gap-16 xl:gap-32">
-    <a target="_blank" href="https://www.nasiol.gr/">
-      <NasiolIcon />
+    <a target="_blank" href="https://www.stek-usa.com/">
+      <StekIcon class="h-48 w-48" />
     </a>
-    <a target="_blank" href="https://pureest.com/">
-      <PureestIcon />
+    <a target="_blank" href="https://lakecountrymfg.com/">
+      <LakeCountryLogo class="h-48 w-48" />
     </a>
-    <a target="_blank" href="https://pureest.com/">
-      <PureestAltIcon />
+    <a target="_blank" href="https://gyeon.co/">
+      <GyeonIcon class="h-48 w-48" />
     </a>
   </div>
 </template>
 
 <script setup lang="ts">
-import NasiolIcon from '../assets/icons/NasiolIcon.vue';
-import PureestIcon from '../assets/icons/PureestIcon.vue';
-import PureestAltIcon from '../assets/icons/PureestAltIcon.vue';
+import StekIcon from '../assets/icons/StekIcon.vue';
+import GyeonIcon from '../assets/icons/GyeonIcon.vue';
+import LakeCountryLogo from '../assets/icons/LakeCountryLogo.vue';
 </script>
 
 <style scoped lang="postcss">
