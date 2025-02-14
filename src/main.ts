@@ -7,6 +7,7 @@ import './state';
 import { createI18n } from "vue-i18n";
 import enUS from './locales/en-US.json'
 import elGR from './locales/el-GR.json'
+import bgBG from './locales/bg-BG.json'
 
 type MessageSchema = typeof enUS
 
@@ -16,6 +17,7 @@ const i18n = createI18n<[MessageSchema], 'en-US' | 'el-GR'>({
   messages: {
     'en-US': enUS,
     'el-GR': elGR,
+    'bg-BG': bgBG,
   },
 })
 
