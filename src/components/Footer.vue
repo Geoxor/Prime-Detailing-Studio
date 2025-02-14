@@ -18,10 +18,10 @@
           </p>
         </a>
 
-        <a class="duration-100 hover:text-white" target="_blank" :href="`mailto:${$t('email.address')}`">
+        <a class="duration-100 hover:text-white" target="_blank" href="mailto:deligiannis.pds@gmail.com">
           <p>
             <EmailIcon />
-            {{$t('email.address')}}
+            deligiannis.pds@gmail.com
           </p>
         </a>
 

@@ -24,10 +24,10 @@
       </a>
 
       <a class="duration-100 flex items-center gap-2" target="_blank"
-        :href="`mailto:${$t('email.address')}`">
+        href="mailto:deligiannis.pds@gmail.com">
         <EmailIcon />
         <p>
-          {{ $t('email.address') }}
+          deligiannis.pds@gmail.com
         </p>
       </a>
 
@@ -63,6 +63,7 @@ import PlaneIcon from '../assets/icons/PlaneIcon.vue';
 import TelephoneIcon from '../assets/icons/TelephoneIcon.vue';
 import InstagramIcon from "../assets/icons/InstagramIcon.vue";
 import CoordsIcon from '../assets/icons/CoordsIcon.vue';
+import { useI18n } from 'vue-i18n';
 
 </script>
 
