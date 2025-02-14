@@ -2,10 +2,10 @@
   <div
     id="hashtags"
     class="bg-white text overflow-hidden overflow-x-auto flex-col flex items-center text-black justify-center py-24 pr-8 px-8 sm:px-16 xl:px-16 2xl:px-32 gap-4 xl:gap-8">
-    <p class="uppercase font-bold">{{$t('more.work')}}</p>
+    <p class="uppercase font-bold text-xs md:text-sm xl:text-md">{{$t('more.work')}}</p>
 
     <a target="_blank" href="https://www.instagram.com/explore/search/keyword/?q=%23primedetailingstudio">
-      <h1 class="uppercase tracking-tighter text-4xl font-semibold">#primedetailingstudio</h1>
+      <h1 class="uppercase tracking-tighter text-md md:text-2xl xl:text-4xl font-semibold">#primedetailingstudio</h1>
     </a>
 
   </div>

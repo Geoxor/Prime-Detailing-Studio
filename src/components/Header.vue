@@ -4,7 +4,7 @@
     <div class="flex flex-1 justify-center select-none">
       <span class="mr-auto select-none">
         <router-link :to="{ name: 'home' }">
-          <Pds_logo @click="" class="cursor-pointer h-16 select-none" />
+          <Pds_logo @click="" class="cursor-pointer h-16 w-min select-none" />
         </router-link>
       </span>
     </div>
