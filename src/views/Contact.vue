@@ -2,7 +2,7 @@
   <div>
     <div class="w-full h-100vh overflow-hidden bg-red bg-cover bg-center"
       style="background-image: url('/pictures/map.png');" />
-    <div class="mainbg bg-grad absolute flex flex-col text-white px-24 gap-4 pl-90 justify-center top-0 right-0 h-full w-1/2">
+    <div class="mainbg bg-grad absolute flex flex-col text-white px-24 gap-4 pl-32 lg:pl-48 xl:pl-64 2xl:pl-90 justify-center top-0 right-0 h-full w-1/2">
 
       <h1 class="font-light text-20px">Contact Information</h1>
 

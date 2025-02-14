@@ -38,10 +38,10 @@
     <section class="footerSection">
       <p class="text-white">{{ $t('navigation') }}</p>
       <router-link :to="{ name: 'home' }">{{ $t('home') }}</router-link>
-      <router-link :to="{ name: 'services' }">{{ $t('services') }}</router-link>
-      <router-link :to="{ name: 'projects' }">{{ $t('projects') }}</router-link>
-      <router-link :to="{ name: 'training' }">{{ $t('training') }}</router-link>
-      <router-link :to="{ name: 'contact' }">{{ $t('contact') }}</router-link>
+      <!-- <router-link :to="{ name: 'services' }">{{ $t('services') }}</router-link> -->
+      <!-- <router-link :to="{ name: 'projects' }">{{ $t('projects') }}</router-link> -->
+      <!-- <router-link :to="{ name: 'training' }">{{ $t('training') }}</router-link> -->
+      <!-- <router-link :to="{ name: 'contact' }">{{ $t('contact') }}</router-link> -->
     </section>
 
     <section class="footerSection hours whitespace-nowrap">
