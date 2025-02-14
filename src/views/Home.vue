@@ -12,10 +12,12 @@
     </div>
   </div>
   <Sponsors />
+  <Hashtags />
 </template>
 
 <script setup lang="ts">
 import Sponsors from '../components/Sponsors.vue'
+import Hashtags from '../components/Hashtags.vue'
 import ScrollAnimation from '../components/ScrollAnimation.vue'
 import Pds from '../assets/pds_logo_colorless.vue';
 

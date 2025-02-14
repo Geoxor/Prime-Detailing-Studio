@@ -14,7 +14,7 @@
         </nav>
         <div class="my-4 h-1px w-full bg-white bg-opacity-20" />
 
-        <a class="navigations" target="_blank" href="https://maps.app.goo.gl/NurGNPLSBU8AmFtG7">
+        <a class="navigations" target="_blank" href="https://maps.app.goo.gl/dWMSjUmPSfeESPDK6">
           <PlaneIcon /> {{ $t('directions') }}
         </a>
 

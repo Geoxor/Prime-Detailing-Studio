@@ -1,12 +1,13 @@
 <template>
   <footer
     class="bg-[#0C0C0C] p-8 sm:p-16 2xl:p-32 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:flex items-top justify-between  text-[#C9C9C9A8] font-semibold gap-8 md:gap-24 xl:gap-8">
+    
     <div class="flex flex-col gap-8">
       <section class="flex flex-col">
-        <a class="duration-100 hover:text-white" target="_blank" href="https://maps.app.goo.gl/NurGNPLSBU8AmFtG7">
+        <a class="duration-100 hover:text-white" target="_blank" href="https://maps.app.goo.gl/dWMSjUmPSfeESPDK6">
           <p>
             <PlaneIcon />
-            {{ $t('address') }}
+            {{ $t('address.location') }}
           </p>
         </a>
 
@@ -17,17 +18,17 @@
           </p>
         </a>
 
-        <a class="duration-100 hover:text-white" target="_blank" href="mailto:deligiannis.pds@gmail.com">
+        <a class="duration-100 hover:text-white" target="_blank" :href="`mailto:${$t('email.address')}`">
           <p>
             <EmailIcon />
-            deligiannis.pds@gmail.com
+            {{$t('email.address')}}
           </p>
         </a>
 
         <a class="duration-100 hover:text-white" target="_blank" :href="`tel:${$t('telephone')}`">
           <p>
             <TelephoneIcon />
-            {{ $t('telephone') }}
+            {{ $t('telephone.number') }}
           </p>
         </a>
       </section>
@@ -38,7 +39,7 @@
       <p class="text-white">{{ $t('navigation') }}</p>
       <router-link :to="{ name: 'home' }">{{ $t('home') }}</router-link>
       <router-link :to="{ name: 'services' }">{{ $t('services') }}</router-link>
-      <router-link :to="{ name: 'projects' }">{{ $t('services') }}</router-link>
+      <router-link :to="{ name: 'projects' }">{{ $t('projects') }}</router-link>
       <router-link :to="{ name: 'training' }">{{ $t('training') }}</router-link>
       <router-link :to="{ name: 'contact' }">{{ $t('contact') }}</router-link>
     </section>

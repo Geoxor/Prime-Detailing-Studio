@@ -12,7 +12,12 @@ import Sidebar from './components/Sidebar.vue';
 </template>
 
 <style lang="postcss">
+@font-face {
+  font-family: lexend_zetta;
+  src: url('./assets/fonts/lexend_zetta.ttf');
+}
 #app {
   @apply bg-black;
 }
+
 </style>

@@ -30,7 +30,7 @@
     <div class="hidden xl:flex flex-1 justify-center">
       <span class="ml-auto">
         <menu>
-          <a class="navigations" target="_blank" href="https://maps.app.goo.gl/NurGNPLSBU8AmFtG7">
+          <a class="navigations" target="_blank" href="https://maps.app.goo.gl/dWMSjUmPSfeESPDK6">
             <PlaneIcon /> {{ $t('directions') }}
           </a>
           <Spacer />
